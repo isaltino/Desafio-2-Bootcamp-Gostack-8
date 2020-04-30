@@ -8,7 +8,9 @@
 - V1.0
 
 ## Bibliotecas
+
 As bibliotecas utilizadas nesse modulo foi:
+
 - bcryptjs
 - express
 - jsonwebtoken
@@ -16,6 +18,24 @@ As bibliotecas utilizadas nesse modulo foi:
 - pg-hstore
 - sequelize
 - yup
+
+## Bibliotecas
+
+Para executar essa plicação você deve seguir os seguintes passos:
+
+1. Instalar as bibliotecas de dependencia
+
+```bash
+  **yarn**
+```
+
+2. Startar o serviços
+
+```bash
+  **yarn** dev
+```
+
+3. No seus nvegador chamar as rotas
 
 ## Rotas
 
@@ -29,8 +49,8 @@ As bibliotecas utilizadas nesse modulo foi:
   ```js
   {
     "name": "Juca",
-	  "email": "juca@terra.com",
-	  "password": "123456"
+  ,
+  "
   }
   ```
 
@@ -60,7 +80,7 @@ As bibliotecas utilizadas nesse modulo foi:
 
   ```js
   {
-	  "email": "juca@terra.com",
-	  "password": "123456"
+  ,
+  "
   }
   ```

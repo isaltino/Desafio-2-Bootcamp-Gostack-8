@@ -19,20 +19,20 @@ As bibliotecas utilizadas nesse modulo foi:
 - sequelize
 - yup
 
-## Bibliotecas
+## Para virar a chave ⚡️
 
-Para executar essa plicação você deve seguir os seguintes passos:
+Para executar essa aplicação você deve seguir os seguintes passos::
 
-1. Instalar as bibliotecas de dependencia
+1. Instalar as dependências
 
 ```bash
-  **yarn**
+  yarn
 ```
 
 2. Startar o serviços
 
 ```bash
-  **yarn** dev
+  yarn dev
 ```
 
 3. No seus nvegador chamar as rotas
@@ -46,13 +46,13 @@ Para executar essa plicação você deve seguir os seguintes passos:
 - Parâmetro: Body
 - Autenticação: Não :unlock:
 
-  ```js
-  {
-    "name": "Juca",
-  ,
-  "
-  }
-  ```
+```
+ {
+   "name": "Juca",
+   "email": "juca@terra.com",
+   "password": "123456",
+ }
+```
 
 ### Editando Usuários
 
@@ -61,15 +61,15 @@ Para executar essa plicação você deve seguir os seguintes passos:
 - Parâmetro: Body
 - Autenticação: Bearer Token :closed_lock_with_key:
 
-  ```js
-  {
-    "name": "Juca",
-    "email": "juca2@terra.com",
-    "oldPassword": "123456",
-    "password": "1234567",
-    "confirmPassword": "1234567"
-  }
-  ```
+```
+ {
+  "name": "Juca",
+  "email": "juca2@terra.com",
+  "oldPassword": "123456",
+  "password": "1234567",
+  "confirmPassword": "1234567"
+ }
+```
 
 ### Gerando Token
 
@@ -78,9 +78,9 @@ Para executar essa plicação você deve seguir os seguintes passos:
 - Parâmetro: Body
 - Autenticação: Não :unlock:
 
-  ```js
-  {
-  ,
-  "
-  }
-  ```
+```
+ {
+  "email": "juca@terra.com",
+  "password": "123456"
+ }
+```
